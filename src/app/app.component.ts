@@ -11,8 +11,8 @@ export class AppComponent {
   //Zoom Level
   zoom: number = 10;
   //Start Position
-  lat: number = 42.458279;
-  lng: number = -70.930498;
+  lat: number = 59.118170;
+  lng: number = 10.230705;
   //Values
   markerName: string;
   markerLat: string;
@@ -74,6 +74,11 @@ export class AppComponent {
 
     this.markers.push(newMarker);
     this._markerService.addMarker(newMarker);
+
+    this.markerName = "";
+    this.markerLat = "";
+    this.markerLng = "";
+    this.markerDraggable = "";
   }
 
   removeMarker(marker){

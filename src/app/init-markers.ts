@@ -6,21 +6,21 @@ export class Init{
             var markers = [
 
                 {
-                    name:'Companhia 1',
-                    lat: 42.458279,
-                    lng: -70.930498,
+                    name:'Fitsmind',
+                    lat: 59.118170,
+                    lng: 10.230705,
                     draggable: true
                 },
                 {
-                    name:'Companhia 2',
-                    lat: 42.358279,
-                    lng: -70.940498,
+                    name:'McDonalds',
+                    lat: 59.913513,
+                    lng: 10.749573,
                     draggable: true
                 },
                 {
-                    name:'Companhia 3',
-                    lat: 42.558279,
-                    lng: -70.930498,
+                    name:'Starbucks',
+                    lat: 59.912641,
+                    lng: 10.752550,
                     draggable: true
                 }
             ];
